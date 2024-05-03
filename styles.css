@@ -1,0 +1,52 @@
+h1{
+    width: 700px;
+    background-color: white;
+    font-family: Verdana;
+    position: relative;
+    margin: 10px auto;
+}
+
+.wrapper{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.post1{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.post1-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana;
+    padding: 0 10px;
+}
+
+.post1-header span {
+    color: grey;
+}
+
+.post1-header h3 {
+    padding: 0;
+}
+
+.post1-photo img{
+    width: 100%;
+    height: auto;
+}
+
+.post1-copy{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+
+.post1-copy p{
+    font-family: Verdana;
+    margin: 0 10px;
+}
